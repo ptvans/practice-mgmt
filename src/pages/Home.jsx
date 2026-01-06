@@ -26,13 +26,7 @@ function Home() {
           <div className="content-card">
             <h2>I manage the complexity so you don't have to think about it.</h2>
             <p>As a therapist and business owner, there are dozens of platforms you could use… Rula, Headway, Alma, SimplePractice.. the list goes on.</p>
-            <div className="platforms">
-              <span className="platform-tag">Rula</span>
-              <span className="platform-tag">Headway</span>
-              <span className="platform-tag">Alma</span>
-              <span className="platform-tag">SimplePractice</span>
-              <span className="platform-tag">and more...</span>
-            </div>
+            <p>I'll help you choose and set up the right tools, from EMR systems to scheduling platforms.</p>
           </div>
         </div>
       </section>
