@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://ptvans.github.io/practice-mgmt",
+  "homepage": "https://www.gethelena.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
