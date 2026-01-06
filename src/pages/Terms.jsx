@@ -45,7 +45,7 @@ function Terms() {
             <p>We reserve the right to modify these terms at any time. Clients will be notified of significant changes via email. Continued use of services after changes constitutes acceptance of modified terms.</p>
 
             <h2>9. Contact</h2>
-            <p>For questions about these terms, please contact us at hello@helenapractice.com</p>
+            <p>For questions about these terms, please contact us at hello@gethelena.com</p>
           </div>
         </div>
       </section>

@@ -71,7 +71,7 @@ function Privacy() {
 
             <h2>11. Contact Us</h2>
             <p>If you have questions about this privacy policy or our data practices, please contact us at:</p>
-            <p>Email: hello@helenapractice.com</p>
+            <p>Email: hello@gethelena.com</p>
           </div>
         </div>
       </section>
