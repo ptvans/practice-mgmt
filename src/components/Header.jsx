@@ -21,7 +21,7 @@ function Header() {
     <header>
       <nav className="navbar">
         <div className="nav-container">
-          <Link to="/" className="logo">Thom</Link>
+          <Link to="/" className="logo">Helena</Link>
           <ul className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
             <li><Link to="/" className={`nav-link ${isActive('/')}`} onClick={closeMobileMenu}>Home</Link></li>
             <li><Link to="/services" className={`nav-link ${isActive('/services')}`} onClick={closeMobileMenu}>Services</Link></li>

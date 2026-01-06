@@ -6,6 +6,8 @@ import Services from './pages/Services'
 import Pricing from './pages/Pricing'
 import StartingPractice from './pages/StartingPractice'
 import Chat from './pages/Chat'
+import Terms from './pages/Terms'
+import Privacy from './pages/Privacy'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/starting-practice" element={<StartingPractice />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
       </main>
       <Footer />

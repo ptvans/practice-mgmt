@@ -54,7 +54,7 @@ function Chat() {
                 <div className="contact-method">
                   <div>
                     <h3>Email</h3>
-                    <p>thom@practicemanager.com</p>
+                    <p>hello@gethelena.com</p>
                   </div>
                 </div>
                 <div className="contact-method">
