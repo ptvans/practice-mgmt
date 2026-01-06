@@ -12,7 +12,7 @@ function Home() {
               className="profile-photo"
             />
             <h1>Business support that frees you to focus on what matters most — your clients.</h1>
-            <p className="hero-subtitle">Hi, I'm Helena. I'm a real person who will help you set up and run your private therapy practice. I am your on-demand practice manager.</p>
+            <p className="hero-subtitle">Hi, I'm Thom. I'm a real person who will help you set up and run your private therapy practice. I am your on-demand practice manager.</p>
             <div className="hero-cta">
               <Link to="/chat" className="btn btn-primary">Get Started</Link>
               <Link to="/services" className="btn btn-secondary">Learn More</Link>
