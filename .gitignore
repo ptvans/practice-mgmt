@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # Old static HTML files (keeping for reference)
-index.html
+index-static-backup.html
 services.html
 pricing.html
 starting-practice.html
