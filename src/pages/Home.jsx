@@ -7,7 +7,7 @@ function Home() {
         <div className="container">
           <div className="hero-content">
             <img 
-              src="/images/paul-van-slembrouck-profile-pic.jpg" 
+              src={`${import.meta.env.BASE_URL}images/paul-van-slembrouck-profile-pic.jpg`}
               alt="Helena Practice Management" 
               className="profile-photo"
             />
