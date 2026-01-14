@@ -55,8 +55,8 @@ function Services() {
         <div className="container">
           <div className="cta-content">
             <h2>Let's discuss your practice needs</h2>
-            <p>Schedule a free consultation to explore how I can support your practice.</p>
-            <Link to="/chat" className="btn btn-primary">Chat with Me</Link>
+            <p>Schedule a free 30-minute call to explore business coaching and operational support for your practice.</p>
+            <a href="https://calendar.app.google/eKw5VvbdXUPmLa5Q8" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Book Your Free Consultation</a>
           </div>
         </div>
       </section>

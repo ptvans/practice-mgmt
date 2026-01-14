@@ -1,39 +1,4 @@
-import { useState } from 'react'
-
 function Chat() {
-  const [formSubmitted, setFormSubmitted] = useState(false)
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    practiceStage: '',
-    message: ''
-  })
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    
-    // Here you would typically send this to a backend API
-    console.log('Form submitted:', formData)
-    
-    // Show success message
-    setFormSubmitted(true)
-    
-    // In a real implementation, you would:
-    // fetch('/api/contact', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify(formData)
-    // })
-  }
-
   return (
     <>
       <section className="page-header">
@@ -72,82 +37,21 @@ function Chat() {
               </div>
             </div>
 
-            <div className="contact-form-wrapper">
-              {!formSubmitted ? (
-                <form className="contact-form" onSubmit={handleSubmit}>
-                  <div className="form-group">
-                    <label htmlFor="name">Name *</label>
-                    <input 
-                      type="text" 
-                      id="name" 
-                      name="name" 
-                      value={formData.name}
-                      onChange={handleChange}
-                      required 
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="email">Email *</label>
-                    <input 
-                      type="email" 
-                      id="email" 
-                      name="email" 
-                      value={formData.email}
-                      onChange={handleChange}
-                      required 
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="phone">Phone</label>
-                    <input 
-                      type="tel" 
-                      id="phone" 
-                      name="phone" 
-                      value={formData.phone}
-                      onChange={handleChange}
-                    />
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="practiceStage">Where are you in your practice journey? *</label>
-                    <select 
-                      id="practiceStage" 
-                      name="practiceStage" 
-                      value={formData.practiceStage}
-                      onChange={handleChange}
-                      required
-                    >
-                      <option value="">Select one...</option>
-                      <option value="planning">Planning to start a practice</option>
-                      <option value="just-started">Just started (0-6 months)</option>
-                      <option value="growing">Growing practice (6mo-2yrs)</option>
-                      <option value="established">Established practice (2+ years)</option>
-                      <option value="transitioning">Transitioning from group to private</option>
-                    </select>
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="message">Tell me about your practice and what you need help with *</label>
-                    <textarea 
-                      id="message" 
-                      name="message" 
-                      rows="6" 
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                    ></textarea>
-                  </div>
-
-                  <button type="submit" className="btn btn-primary">Send Message</button>
-                </form>
-              ) : (
-                <div className="form-success">
-                  <h3>Thank you for reaching out!</h3>
-                  <p>I've received your message and will get back to you within 24 hours.</p>
-                </div>
-              )}
+            <div className="schedule-cta-wrapper">
+              <div className="schedule-cta-content">
+                <h3>Book Your Free Consultation</h3>
+                <p>Schedule a free 30-minute call to discuss business coaching and operational support for your therapy practice.</p>
+                <p>We'll talk about where you are in your practice journey and explore how I can help you succeed.</p>
+                <a 
+                  href="https://calendar.app.google/eKw5VvbdXUPmLa5Q8" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn btn-primary"
+                >
+                  Schedule Free 30-Min Call
+                </a>
+                <p className="schedule-note">No pressure, no sales tactics — just an honest conversation.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -156,8 +60,8 @@ function Chat() {
       <section className="complexity-section">
         <div className="container">
           <div className="content-card">
-            <h2>What Happens Next?</h2>
-            <p>After you reach out, I'll review your message and get back to you within 24 hours. We'll schedule a free consultation call to discuss your practice needs in detail and see if we're a good fit to work together.</p>
+            <h2>What Happens on Our Call?</h2>
+            <p>During our free 30-minute consultation, we'll discuss your practice goals, current challenges, and how business coaching and operational support can help you focus on what matters most — your clients.</p>
             <p>No pressure, no sales tactics — just an honest conversation about your practice and how I might be able to help.</p>
           </div>
         </div>
@@ -167,4 +71,3 @@ function Chat() {
 }
 
 export default Chat
-

@@ -86,8 +86,8 @@ function StartingPractice() {
         <div className="container">
           <div className="cta-content">
             <h2>Ready to start your practice?</h2>
-            <p>Let's create a personalized roadmap for launching your private practice.</p>
-            <Link to="/chat" className="btn btn-primary">Let's Talk</Link>
+            <p>Schedule a free 30-minute call to create a personalized roadmap for launching your practice with business coaching and operational support.</p>
+            <a href="https://calendar.app.google/eKw5VvbdXUPmLa5Q8" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Book Your Free Strategy Call</a>
           </div>
         </div>
       </section>

@@ -14,7 +14,7 @@ function Home() {
             <h1>Business support that frees you to focus on what matters most — your clients.</h1>
             <p className="hero-subtitle">Hi, I'm Thom. I'm a real person who will help you set up and run your private therapy practice. I am your on-demand practice manager.</p>
             <div className="hero-cta">
-              <Link to="/chat" className="btn btn-primary">Get Started</Link>
+              <a href="https://calendar.app.google/eKw5VvbdXUPmLa5Q8" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Schedule Free 30-Min Call</a>
               <Link to="/services" className="btn btn-secondary">Learn More</Link>
             </div>
           </div>
@@ -59,8 +59,8 @@ function Home() {
         <div className="container">
           <div className="cta-content">
             <h2>Ready to simplify your practice management?</h2>
-            <p>Let's chat about how I can help you focus on what you do best — helping your clients.</p>
-            <Link to="/chat" className="btn btn-primary">Chat with Me</Link>
+            <p>Schedule a free 30-minute call to discuss your business coaching and operational support needs.</p>
+            <a href="https://calendar.app.google/eKw5VvbdXUPmLa5Q8" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Schedule Your Free Call</a>
           </div>
         </div>
       </section>
