@@ -37,19 +37,27 @@ function Home() {
           <div className="benefits-list">
             <div className="benefit-item">
               <h3>Practice Setup</h3>
-              <p>From LLC formation to EIN registration, I'll guide you through every step of establishing your practice.</p>
+              <p>From business formation to tax IDs, provider numbers, and bookkeeping, I'll guide you through every step of establishing your practice.</p>
+            </div>
+            <div className="benefit-item">
+              <h3>Client Scheduling and Communications</h3>
+              <p>I set up your appointments, send reminders, and manage your calendar so you can focus on your clients.</p>
             </div>
             <div className="benefit-item">
               <h3>Billing & Insurance</h3>
-              <p>Navigate the complexity of insurance panels, billing, and claims so you get paid on time.</p>
+              <p>Assistance with credentialing, claims, and billing systems.</p>
             </div>
             <div className="benefit-item">
               <h3>Platform Management</h3>
-              <p>I'll help you choose and set up the right tools, from EMR systems to scheduling platforms.</p>
+              <p>I'll help you choose and set up the right tools, from EHR platforms to telehealth.</p>
             </div>
             <div className="benefit-item">
               <h3>Business Operations</h3>
               <p>Keep your practice running smoothly with ongoing support for day-to-day operations.</p>
+            </div>
+            <div className="benefit-item">
+              <h3>Financial Planning</h3>
+              <p>Personal and business financial planning to make sure that your practice is profitable.</p>
             </div>
           </div>
         </div>
