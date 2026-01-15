@@ -436,7 +436,7 @@ footer {
 
 /* Pricing - Simple Layout */
 .pricing-simple {
-    max-width: 600px;
+    max-width: 900px;
     margin: 3rem auto;
     text-align: center;
     padding: 3rem 2rem;
@@ -473,8 +473,125 @@ footer {
     margin-left: 0.5rem;
 }
 
-.pricing-terms {
+.pricing-includes {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--tan);
+    text-align: left;
+}
+
+.pricing-includes h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: var(--text-dark);
+    font-weight: 600;
+    text-align: center;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.benefit-column h4 {
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--pale-green);
+}
+
+.check-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.check-list li {
+    position: relative;
+    padding-left: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.check-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+.scale-note {
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--text-medium);
+    font-style: italic;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+/* Add-On Section */
+.addon-section {
     margin-top: 3rem;
+}
+
+.addon-card {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: var(--off-white);
+    border: 2px solid var(--tan);
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.addon-header {
+    margin-bottom: 1.5rem;
+}
+
+.addon-label {
+    display: inline-block;
+    background-color: var(--dark-green);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.35rem 0.85rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.addon-card h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.addon-description {
+    font-size: 1rem;
+    color: var(--text-medium);
+    margin: 0;
+}
+
+.addon-features {
+    text-align: left;
+    max-width: 280px;
+    margin: 0 auto 2rem;
+}
+
+.addon-features li {
+    margin-bottom: 0.85rem;
+}
+
+.pricing-terms {
+    margin-top: 2rem;
     padding-top: 2rem;
     border-top: 1px solid var(--tan);
 }
@@ -795,6 +912,15 @@ footer {
 
     .pricing-grid {
         grid-template-columns: 1fr;
+    }
+
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .pricing-simple {
+        max-width: 100%;
     }
 
 
